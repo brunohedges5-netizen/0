@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color:white;
+  padding: 10px; 
+  background: url("Img/aon.llp.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 160%;
+}
+.aon {
+  height:200px;
+  background: url("Img/AON.png");
+  background-position: center;
+  border-radius:10px;
+  padding:10px;
+}
+header {
+  background:linear-gradient(to right,black,blue);
+  color:white;
+  display:flex;
+  padding:10px;
+  font-size:x-large;
+  justify-content:space-between;
+  position:fixed;
+  left:0;
+  right:0;
+  top:0;
+}
+text {
+font-size:medium;
+}
+button {
+background-color:blue;
+color:white;
+padding:5px;
+margin:px;
+border-radius:10px;
+font-size:large;
+border:1px solid #673ab7;
+}
+button:hover {
+color:#673ab7;
+background-color:white;
+border:1px solid blue;
+}
+img {
+  width: 50%;
+}
+.container {
+}
+.paragraph {
+  background:linear-gradient(to right,black,blue);
+  padding: 10px;
+  border-radius: 10px;
+}
+h2 {
+  font-size: 30px;
+  color:white;
+}
+p {
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 10px;
+  }
+}
+ontainer {
+  padding: 100px;
+}
+
+h1 {
+  font-size: 50px;
+}
+p {
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 10px;
+  }
+}
+hr {
+border:0.25px solid white;
+}
+.container {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.swiper {
+    width: 70%;
+    height: 130px;
+    --swiper-pagination-color: #fff;
+}
+
+.swiper-slide {
+    /* Center slide vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 80%;
+    height: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+}
+
+.swiper.card { height: 300px; }
+
+.card .swiper-slide {
+    flex-direction: column;
+    align-items: start;
+}
+
+.card img {
+    margin-bottom: 1em;
+    width: 100%;
+    height: 100%;
+    transition: transform 150ms ease;
+}
+
+.card .swiper-slide:active img { transform: scale(0.95); }
